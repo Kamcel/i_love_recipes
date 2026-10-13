@@ -48,14 +48,14 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  // Widget buildReceipeCard(Recipe recipe) {
-  //   return Card(
-  //     child: Column(
-  //       children: <Widget>[
-  //         Image(image: AssetImage(recipe.imageUrl)),
-  //         Text(recipe.label),
-  //       ],
-  //     ),
-  //   );
-  // }
+  Widget buildReceipeCard(Recipe recipe) {
+    return Card(
+      child: Column(
+        children: <Widget>[
+          Image(image: AssetImage(recipe.imageUrl)),
+          Text(recipe.label),
+        ],
+      ),
+    );
+  }
 }
